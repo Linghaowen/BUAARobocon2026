@@ -1,0 +1,23 @@
+/**:
+  ros__parameters:
+    # 模板配置
+    template_dir: "/home/haowen/BUAARobertTeam/abu robocon 2026 map/贴图/R2 KFS图案/"
+    num_templates: 15
+    
+    # SIFT匹配参数
+    angle_thresh: 15.0      # 角度阈值（度）
+    aspect_thresh: 0.3      # 对角线长度比例阈值
+    overlap_thresh: 50.0    # 重叠检测阈值（像素）
+    min_good_matches: 8     # 最小匹配点数
+    lowe_ratio: 0.8         # Lowe's ratio test阈值
+    
+    # 相机内参
+    fx: 608.692
+    fy: 608.622
+    cx: 328.773
+    cy: 243.008
+    
+    # 相机外参（相机在世界坐标系中的位置）
+    camera_x: 0.0  # mm
+    camera_y: 0.0  # mm
+    camera_z: 0.0  # mm
